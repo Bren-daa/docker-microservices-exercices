@@ -1,0 +1,6 @@
+FROM node:12
+WORKDIR /Users/brenda/GitHub/docker-microservices-exercices/
+COPY ping.js ./
+RUN npm install
+EXPOSE 4567
+CMD [ "node", "ping.js"]
