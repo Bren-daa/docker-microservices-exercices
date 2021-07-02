@@ -1,0 +1,14 @@
+{
+  "name": "ping",
+  "version": "1.0.0",
+  "description": "Docker exercises",
+  "author": "Brenda Andriamarolahy",
+  "main": "ping.js",
+  "scripts": {
+    "start-ping": "node ping.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}

@@ -1,6 +1,7 @@
 FROM node:12
-WORKDIR /Users/brenda/GitHub/docker-microservices-exercices/
-COPY server3.js ./
+WORKDIR /Users/brenda/GitHub/docker-microservices-exercices/Serveur3/
+COPY package*.json server3.js ./
 RUN npm install
 EXPOSE 8080
 CMD [ "node", "server3.js"]
+

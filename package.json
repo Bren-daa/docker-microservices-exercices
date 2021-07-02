@@ -1,0 +1,16 @@
+{
+    "name": "server3",
+    "version": "1.0.0",
+    "description": "Docker exercises",
+    "author": "Brenda Andriamarolahy",
+    "main": "server3.js",
+    "scripts": {
+      "start-ping": "node ping.js",
+      "start-pong": "node pong.js",
+      "start-server3": "node server3.js"
+    },
+    "dependencies": {
+      "express": "4.17.1",
+      "node-fetch": "2.6.1"
+    }
+  }

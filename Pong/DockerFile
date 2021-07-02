@@ -1,6 +1,6 @@
 FROM node:12
-WORKDIR /Users/brenda/GitHub/docker-microservices-exercices/
-COPY pong.js ./
+WORKDIR /Users/brenda/GitHub/docker-microservices-exercices/Pong/
+COPY package*.json pong.js ./
 RUN npm install
 EXPOSE 5372
 CMD ["node", "pong.js"]
